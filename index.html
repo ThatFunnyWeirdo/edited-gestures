@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title> Hand Gestures </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:ital,wght@1,100&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src=" https://unpkg.com/ml5@0.4.3/dist/ml5.min.js "> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+    
+      <center>
+  
+        <h3 class="heading btn btn-info"> GESTURES TO EMOJI APP
+          <br>
+          <span> &#9995; </span>
+          <span> &#9996; </span>
+          <span> &#128079; </span>
+          <span> &#128076; </span>
+          <span> &#128077; </span>
+          <span> &#128078; </span>
+        </h3>
+
+        <br>
+        <br>
+      
+      <div id="camera"> 
+      </div>
+      <br>
+      <span>
+      <button id="capture" class="btn btn-warning" onclick=""> Capture Image</button>
+      <br>
+      <br>
+      <p id="note"> Take a a selfie of a gesture to know about it's meaning</p>
+      <p id="notey" >On the following gestures the model is trained</p>
+       <label id="prediction" class="btn-info"> Prediction - </label>
+       <br>
+       <br>
+      <span id="result_gesture_name"> </span>
+      <span id="result_emoji_name"> </span>
+      <div id="result">  </div>
+      <br>
+      <button id="identify" class=" btn btn-primary" onclick=""> Identify Image</button>
+      </span>
+    </center>
+      </body>
+<script src="main.js"></script>
+</html>

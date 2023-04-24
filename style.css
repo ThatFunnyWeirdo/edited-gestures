@@ -1,0 +1,54 @@
+body
+{
+  color: white;
+  background-color: beige;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+
+#result_gesture_name 
+{
+  color: black;
+}
+
+
+.heading 
+{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 8px;
+}
+
+#camera, #result
+{
+text-align: center;
+}
+
+#note 
+{
+  color: black;
+  font-size: 20;
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+#notey
+{
+  color: black;
+  font-size: 15;
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+#prediction
+{
+  font-size: 14px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
